@@ -1,0 +1,15 @@
+{
+  "id": "mcp-smoke-mq7tlk9r",
+  "name": "MCP Smoke Test Agent",
+  "description": "Small disposable agent created by MCP smoke test.",
+  "storeType": "tool",
+  "category": "testing",
+  "model": "@cf/meta/llama-3.2-3b-instruct",
+  "template": "api",
+  "serverConfig": {
+    "durableObject": false,
+    "routes": [
+      "mcp-smoke-mq7tlk9r.proagentstore.online/*"
+    ]
+  }
+}
