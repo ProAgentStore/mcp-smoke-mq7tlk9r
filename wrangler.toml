@@ -1,0 +1,11 @@
+name = "proagentstore-mcp-smoke-mq7tlk9r"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[routes]]
+pattern = "mcp-smoke-mq7tlk9r.proagentstore.online/*"
+zone_name = "proagentstore.online"
+
+[ai]
+binding = "AI"
